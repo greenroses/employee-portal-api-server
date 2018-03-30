@@ -3,24 +3,24 @@
 -- The name and password must be exactly the same as in the following commands.
 --
 
-CREATE USER 'moonlighting2'@'localhost' IDENTIFIED BY 'moonlighting2';
+CREATE USER 'moonlighting'@'localhost' IDENTIFIED BY 'moonlighting';
 
-GRANT ALL PRIVILEGES ON * . * TO 'moonlighting2'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'moonlighting'@'localhost';
 
 --
 -- Create database `employee_tracker`.
 --
 
-CREATE DATABASE  IF NOT EXISTS `employee_tracker2`;
-USE `employee_tracker2`;
+CREATE DATABASE  IF NOT EXISTS `employee_tracker`;
+USE `employee_tracker`;
 
 --
 -- Table structure for table `employee`
 --
 
-DROP TABLE IF EXISTS `employee2`;
+DROP TABLE IF EXISTS `employee`;
 
-CREATE TABLE `employee2` (
+CREATE TABLE `employee` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) DEFAULT NULL,
   `salary` int(11) DEFAULT NULL,
@@ -33,9 +33,9 @@ CREATE TABLE `employee2` (
 -- Dumping data for table `employee`
 --
 
-LOCK TABLES `employee2` WRITE;
+LOCK TABLES `employee` WRITE;
 
-INSERT INTO `employee2` VALUES
+INSERT INTO `employee` VALUES
     (1,'David Adams',60000,'20161201','david@gmail.com'),
     (2,'John Doe',70000,'20180220','john@gmail.com'),
     (3,'Ajay Rao',80000,'20161230','ajay@gmail.com'),
