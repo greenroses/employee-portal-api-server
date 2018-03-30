@@ -1,7 +1,7 @@
 # Employee Portal API Server
 
 ## Files
-`employee-portal.sql`
+`employee-portal.sql`: creates the specific user(moonlighting) and password(moonlighting) and the database required for the program. 
 `employee-portal-api.war`
 
 ## Installation
