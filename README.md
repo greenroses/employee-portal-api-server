@@ -1,8 +1,8 @@
 # Employee Portal API Server
 
 ## Files
-`employee-portal.sql`: creates the specific user(moonlighting) and password(moonlighting) and the database required for the program. 
-`employee-portal-api.war`
+1. `employee-portal.sql`: creates the specific user(moonlighting) and password(moonlighting) and the database required for the program. 
+2. `employee-portal-api.war`
 
 ## Installation
 1. Run `employee-portal.sql` file using the command line in MySQL or through MySQLWorkbench. This will create the specific user, password and the required database for the application.
